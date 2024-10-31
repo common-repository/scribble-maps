@@ -1,0 +1,60 @@
+
+.create-button{
+    
+}
+.create-button a{
+}
+#ScribbleMap{
+    width:650px;
+    height: 500px;
+	float: left;
+}
+#popup{
+    width:100%;
+    position: relative;
+}
+
+#popup #instructions {
+	width: 200px;
+	float: left;
+	padding-left: 10px;
+}
+
+.message{
+    border: 2px solid #027ac6;
+    float: left;
+	display: none;
+    list-style: none outside none;
+    margin: 10px 4px;
+    text-align: center;
+    background-color: #ffffff;    
+    font-weight: bold;
+}
+
+#mapTypes {
+	position: absolute;
+	right: 10px;
+	bottom: 80px;
+}
+
+#mapTypes select {
+	font-family: 'Open Sans', Verdana, Arial;
+	font-weight: bold;
+	font-size: 14px;
+	height: 18px;
+	color: #333333;
+	height: 25px;
+
+	margin: 0;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #999;
+
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
